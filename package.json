@@ -1,0 +1,38 @@
+{
+  "name": "react-context-kit",
+  "version": "0.0.1",
+  "description": "Simple Context API wrapper",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/cea2k/react-context-kit.git"
+  },
+  "keywords": [
+    "React",
+    "Context",
+    "API",
+    "Typescript"
+  ],
+  "author": "Carlos E. Alarcon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cea2k/react-context-kit/issues"
+  },
+  "homepage": "https://github.com/cea2k/react-context-kit#readme",
+  "devDependencies": {
+    "@jest/globals": "^29.7.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^29.5.14",
+    "@types/react": "^19.1.2",
+    "jest": "^29.7.0",
+    "react-test-renderer": "^19.1.0",
+    "ts-jest": "^29.3.2",
+    "typescript": "^5.8.3"
+  }
+}
